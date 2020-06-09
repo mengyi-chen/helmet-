@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8"> 
+        <title>美好的一天</title>
+        <style>
+            h1{color:red;}
+            #before{background-color:blueviolet;}
+            #during{background-color:orange;}
+            #after{background-color:yellowgreen;}
+            .class属性的值{color: yellow;}
+            h2{background-color: palegoldenrod;}
+        </style>
+    </head>
+    
+    <body background="/i/eg_background.jpg">
+        <h1 style="background-color: gold;">计算器和时钟养成器</h1>
+        姓名：<b><i style="color: purple;">王小二</i></b><sup>*</sup> 时间：<i style="color: purple;">2020年6月5日</i>
+        <!--可以直接输入文字，没有任何标签-->
+        <div id="before">
+            <h2>发明前</h2>
+            <p>在发明前，我也不知道自能不能完成。</p>
+            列表：王小二的动机
+            <ol>
+                <li>学习css</li>
+                <li>学习html</li>
+                <li>学习js</li>
+                <li>写计算器和时钟</li>
+            </ol>
+            <iframe frameborder="0" src="https://bkjy.ucas.edu.cn/" width="600" height="300 seamless"></iframe>
+            <br>
+            <hr>
+        </div>
+        <div id="during">
+            <h2>发明中</h2>
+            <p>过程中，查了好多资料，好累但很快乐。</p>
+            <table border="1">
+                表：王小二艰难历程表
+            <tr>
+                <td>事件</td><td>感悟</td>
+            </tr>
+            <tr>
+                <td>看css语法</td><td>一天没睡</td>
+            </tr>
+            <tr>
+                <td>看html</td><td>还是没睡</td>
+            </tr>
+            <tr>
+                <td>看js语法</td><td>还是够香</td>
+            </tr>
+            </table>
+            <br>
+            <hr>
+        </div>
+        <div id="after">
+            <h2>发明后</h2>
+            <p>终于做好了，虽然很粗糙，那也是亲儿子。</p>
+            计算器：
+            <form>
+                操作数1： <input type="text"><br>
+                操作数2： <input type="text"><br>
+                <input type="radio" name="op1">加
+                <input type="radio" name="op">减
+                <!--name属性的值似乎可以自己定义-->
+                <input type="radio" name="op">乘
+                <input type="radio" name="op">除
+                <input type="radio" name="op">模
+                <br/>
+                密码：<input type="password"> 
+                <input type="data">日期
+                <input type="">日期
+                结果：<span>XXXX</span><br>
+                <input type="button" value="计算">
+            </form>
+        </div>
+        <div>
+            文本格式化标签<br>
+            <b>定义粗体文字</b>
+            <em>强调</em>
+            <small>小号字</small>
+            <sub>下标</sub>
+            <sup>上标</sup>
+            <ins>插入(下划线)</ins>
+            <del>删除</del>
+            <i>斜体</i>
+            <a href="https://bkjy.ucas.ac.cn">
+                <img src="https://www.w3school.com.cn/i/eg_tulip.jpg" ismap />
+                </a>
+            <h2>未设置对齐方式的图像：</h2>
+            <p>图像 <img src ="https://www.w3school.com.cn/i/eg_cute.gif"> 在文本中</p>
+            <h2>已设置对齐方式的图像：</h2>
+            <p>图像 <img src="https://www.w3school.com.cn/i/eg_cute.gif" align="bottom" ismap> 在文本中</p>  试着去
+            <p>图像 <img src ="https://www.w3school.com.cn/i/eg_cute.gif" align="middle"> 在文本中</p>
+            <p>图像 <img src ="https://www.w3school.com.cn/i/eg_cute.gif" align="top"> 在文本中</p>
+            <p>请注意，bottom 对齐方式是默认的对齐方式。</p> 
+            <p>
+                <img src ="https://www.w3school.com.cn/i/eg_cute.gif" align ="left"> 
+                带有图像的一个段落。图像的 align 属性设置为 "left"。图像将浮动到文本的左侧。
+            </p>       
+            <p>
+            <img src ="https://www.w3school.com.cn/i/eg_cute.gif" align ="right"> 
+            带有图像的一个段落。图像的 align 属性设置为 "right"。图像将浮动到文本的右侧。
+            </p>
+            <img src="https://www.w3school.com.cn/i/eg_mouse.jpg" width="50" height="50"><br/>
+            <img src="https://www.w3school.com.cn/i/eg_mouse.jpg" width="100" height="100"><br/>
+            <p>通过改变 img 标签的 "height" 和 "width" 属性的值，您可以放大或缩小图像。</p>
+            如果无法显示图像，将显示相应的文字<br/>
+            <img src="/i/eg_goleft123.gif" alt="向左转" />
+            图像做为链接<br/>
+            <a href="/example/html/lastpage.html"><img border="0" src="/i/eg_buttonnext.gif" /></a>
+            <a href="/i/w3school_logo_white.gif" download="w3logo">
+                <img border="0" src="https://www.w3school.com.cn/i/w3school_logo_white.gif" alt="W3School">
+            </a>
+            <ul>
+                <li><a href="https://www.w3school.com.cn/example/html/pref.html" target="view_frame">Preface</a></li>
+                <li><a href="chap1.html" target="view_frame">Chapter 1</a></li>
+                <li><a href="chap2.html" target="view_frame">Chapter 2</a></li>
+                <li><a href="chap3.html" target="view_frame">Chapter 3</a></li>
+              </ul>
+              <ul>
+                <li><a href="https://www.w3school.com.cn/example/html/pref.html" target="view_window">Preface</a></li>
+                <li><a href="https://www.w3school.com.cn/example/html/pref.html" target="view_window">Chapter 1</a></li>
+                <li><a href="https://www.w3school.com.cn/example/html/pref.html" target="view_window">Chapter 2</a></li>
+                <li><a href="https://www.w3school.com.cn/example/html/pref.html" target="view_window">Chapter 3</a></li>
+              </ul>    
+
+
+        </div>
+        <a href="https://bkjy.ucas.ac.cn"><img src="https://tse1-mm.cn.bing.net/th/id/OET.994eaf869d0c440e90d820fa1ed7a5f5?w=272&h=272&c=7&rs=1&o=5&pid=1.9"></img></a>
+    </body>
+    
+</html>
+<html>
+
+
+
+
